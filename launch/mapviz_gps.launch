@@ -1,0 +1,4 @@
+<launch>
+	<node name="mapviz_gps" pkg="gps_mapviz" type="MapvizPublisher.py" />
+	<include file="$(find mapviz)/launch/mapviz.launch" />
+</launch>
