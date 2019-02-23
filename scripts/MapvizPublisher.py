@@ -25,7 +25,6 @@ def GpsMapper():
     pub = rospy.Publisher('GPS', GPSFix, queue_size=10)
     rospy.init_node('GPSMapviz', anonymous=True)
     rospy.Subscriber(listener_nodo,Twist,callback)
-    rospy.Subscriber(listener_nodo,Twist,callback)
 
     while not rospy.is_shutdown():
         if dataChanged:
