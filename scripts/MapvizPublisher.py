@@ -28,7 +28,7 @@ def GpsMapper():
 
     while not rospy.is_shutdown():
         if dataChanged:
-            rospy.loginfo(gpsData)
+            #rospy.loginfo(gpsData)
             pub.publish(gpsData)
             dataChanged = 0
 
