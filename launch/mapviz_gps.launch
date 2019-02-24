@@ -1,4 +1,5 @@
 <launch>
 	<node name="mapviz_gps" pkg="gps_mapviz" type="MapvizPublisher.py" />
+	<node name="gps_points" pkg="autonomous_mode" type="GPSPoints.py" />
 	<include file="$(find mapviz)/launch/mapviz.launch" />
 </launch>
