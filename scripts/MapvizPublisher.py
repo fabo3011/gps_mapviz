@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+
+#Project ALVIN (Autonomous Logic Virtual Intelligence n' Navigation)
+
 import rospy
 import roslib
 from gps_common.msg import GPSFix
